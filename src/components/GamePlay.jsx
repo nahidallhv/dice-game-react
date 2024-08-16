@@ -79,4 +79,15 @@ const MainContainer = styled.main`
     gap: 10px;
     margin-top: 20px;
   }
+  @media (max-width: 768px) {
+    padding-top: 10px;
+    .top-section {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+    .btns {
+      margin-top: 10px;
+    }
+  }
 `;

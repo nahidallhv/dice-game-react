@@ -41,4 +41,8 @@ export const Button = styled.button`
     transform: scale(1.05);
     will-change: transform;
   }
+  @media (max-width: 768px) {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
 `;

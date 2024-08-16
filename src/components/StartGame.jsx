@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import { Button } from "../styled/Button";
 
-const StartGame = ({toggle}) => {
+const StartGame = ({ toggle }) => {
   return (
     <Container>
-      <div>
-        <img src="/images/dices.png" />
+      <div className="image-container">
+        <img src="/images/dices.png" alt="dices" />
       </div>
       <div className="content">
         <h1>Dice Game</h1>
@@ -24,11 +24,29 @@ const Container = styled.div`
   margin: 0 auto;
   align-items: center;
 
+
   .content {
     h1 {
       font-size: 95px;
       white-space: nowrap;
     }
   }
-`;
 
+  @media (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    
+    .image-container {
+      img {
+        max-width: 250px;
+      }
+    }
+
+    .content {
+      h1 {
+        font-size: 50px;
+        text-align: center;
+      }
+    }
+  }
+`;

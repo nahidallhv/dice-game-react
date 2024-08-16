@@ -50,6 +50,16 @@ const NumberSelectorContainer = styled.div`
     color: red;
     font-size: 18px;
     margin-bottom: 10px;
+
+  @media (max-width: 768px) {
+    align-items: center;
+    .flex {
+      gap: 16px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
   }
 `;
 
@@ -63,4 +73,10 @@ const Box = styled.div`
   font-weight: 700;
   background-color: ${(props) => (props.isSelected ? "#420202" : "white")};
   color: ${(props) => (!props.isSelected ? "#420202" : "white")};
+
+  @media (max-width: 768px) {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
 `;

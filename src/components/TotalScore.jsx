@@ -23,4 +23,13 @@ text-align: center;
     font-size: 25px;
     font-weight: 700;
   }
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 50px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
 `;

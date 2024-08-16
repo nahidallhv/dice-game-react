@@ -33,4 +33,13 @@ const RulesContainer = styled.div`
   .text {
     margin-top: 24px;
   }
+  @media (max-width: 768px) {
+    padding: 15px;
+    h2 {
+      font-size: 20px;
+    }
+    .text {
+      margin-top: 15px;
+    }
+  }
 `;
