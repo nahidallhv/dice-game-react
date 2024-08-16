@@ -57,7 +57,7 @@ const NumberSelectorContainer = styled.div`
       gap: 16px;
     }
     p {
-      font-size: 18px;
+      font-size: 13px;
     }
   }
   }
@@ -75,8 +75,8 @@ const Box = styled.div`
   color: ${(props) => (!props.isSelected ? "#420202" : "white")};
 
   @media (max-width: 768px) {
-    height: 50px;
-    width: 50px;
-    font-size: 18px;
+    height: 35px;
+    width: 35px;
+    font-size: 15px;
   }
 `;
