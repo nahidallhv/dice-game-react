@@ -29,17 +29,21 @@ const RulesContainer = styled.div`
   h2 {
     font-size: 24px;
     font-weight: bold;
+    color: #420202;
   }
   .text {
     margin-top: 24px;
+    color: #420202;
   }
   @media (max-width: 768px) {
     padding: 15px;
     h2 {
       font-size: 20px;
+      color: #420202;
     }
     .text {
       margin-top: 15px;
+      color: #420202;
     }
   }
 `;

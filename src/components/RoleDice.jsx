@@ -28,12 +28,14 @@ const DiceContainer = styled.div`
   p {
     font-size: 24px;
     font-weight: 500;
+    color: #420202;
   }
   @media (max-width: 768px) {
     margin-top: 20px;
 
     p {
       font-size: 18px;
+      color: #420202;
     }
   }
 `;

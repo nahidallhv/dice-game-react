@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-
 export const Button = styled.button`
   /* position: absolute; */
+  cursor: pointer;
   padding: 10px 18px;
   min-width: 100px;
   font-size: 16px;

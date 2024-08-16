@@ -42,6 +42,7 @@ const NumberSelectorContainer = styled.div`
     gap: 24px;
   }
   p {
+    color: #420202;
     font-size: 24px;
     font-weight: 600;
     padding-top: 10px;
@@ -51,22 +52,25 @@ const NumberSelectorContainer = styled.div`
     font-size: 18px;
     margin-bottom: 10px;
 
-  @media (max-width: 768px) {
-    align-items: center;
-    .flex {
-      gap: 16px;
+    @media (max-width: 768px) {
+      align-items: center;
+      .flex {
+        gap: 16px;
+      }
+      p {
+        font-size: 13px;
+        color: #420202;
+      }
     }
-    p {
-      font-size: 13px;
-    }
-  }
   }
 `;
 
 const Box = styled.div`
+  cursor: pointer;
   height: 70px;
   width: 70px;
-  border: 2px solid ;
+  border: 2px solid;
+  border-radius: 15px;
   display: grid;
   place-items: center;
   font-size: 24px;

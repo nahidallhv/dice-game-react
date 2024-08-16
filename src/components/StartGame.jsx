@@ -29,6 +29,7 @@ const Container = styled.div`
     h1 {
       font-size: 95px;
       white-space: nowrap;
+      color: #420202;
     }
   }
 
@@ -47,6 +48,7 @@ const Container = styled.div`
       h1 {
         font-size: 50px;
         text-align: center;
+        color: #420202;
       }
     }
   }
